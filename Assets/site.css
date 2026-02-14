@@ -55,32 +55,33 @@ body {
 }
 
 .hero-logo {
-       width: 100%;
-       max-width: 1920px;
+    /* scale with window while keeping reasonable min/max */
+    width: clamp(480px, 30vw, 1920px);
+    max-width: 98%;
     height: auto;
     display: block;
     filter: none;
     border-radius: 0;
     background: transparent;
     padding: 0;
-    margin-top: -200px;
+    margin: 0 auto;
     box-shadow: none;
 }
 
 /* Book Now button */
 .book-btn {
     display: inline-block;
-    margin-top: -200px;
+    margin-top: 22px;
     background: var(--teal);
     color: #083038;
-    padding: 12px 22px;
-    border-radius: 8px;
+    padding: clamp(8px, 1.6vw, 18px) clamp(12px, 3vw, 32px);
+    border-radius: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: clamp(14px, 2.6vw, 24px);
     text-decoration: none;
     box-shadow: 0 8px 20px rgba(9, 30, 27, 0.12);
-    transition: transform .12s ease, box-shadow .12s ease
+    transition: transform .12s ease, box-shadow .12s ease;
 }
 
 .book-btn:hover {
@@ -216,16 +217,16 @@ footer {
         height: 40vh;
         align-items: center;
         justify-content: center;
+        gap: 24px;
     }
 
     .hero-logo {
-           width: 100%;
-           max-width: 1920px;
-           margin-top: -50px;
+        width: clamp(300px, 50vw, 1920px);
+        margin: 0 auto;
     }
 
     .book-btn {
-        margin-top: -50px;
+        margin-top: 18px;
         font-size: 16px;
         padding: 10px 18px;
     }
