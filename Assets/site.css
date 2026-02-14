@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../Assets/hero.jpg');
+    background-image: url('../Assets/Hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat
