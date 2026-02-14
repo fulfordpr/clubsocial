@@ -55,7 +55,9 @@ body {
 }
 
 .hero-logo {
-    max-width: 90%;
+       width: 100%;
+       max-width: 1920px;
+    height: auto;
     display: block;
     filter: none;
     border-radius: 0;
@@ -68,7 +70,7 @@ body {
 /* Book Now button */
 .book-btn {
     display: inline-block;
-    margin-top: -190px;
+    margin-top: -200px;
     background: var(--teal);
     color: #083038;
     padding: 12px 22px;
@@ -211,15 +213,18 @@ footer {
 
 @media(max-width:640px) {
     .hero {
-        height: 25vh
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero-logo {
-        width: 80%;
+           width: 100%;
+           max-width: 1920px;
     }
 
     .book-btn {
-        margin-top: -40px;
+        margin-top: 22px;
         font-size: 16px;
         padding: 10px 18px;
     }
