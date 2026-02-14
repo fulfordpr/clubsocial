@@ -221,10 +221,11 @@ footer {
     .hero-logo {
            width: 100%;
            max-width: 1920px;
+           margin-top: -50px;
     }
 
     .book-btn {
-        margin-top: 22px;
+        margin-top: -50px;
         font-size: 16px;
         padding: 10px 18px;
     }
