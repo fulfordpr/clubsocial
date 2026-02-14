@@ -54,21 +54,20 @@ body {
 }
 
 .hero-logo {
-    width: 80%;
     max-width: 90%;
     display: block;
     filter: none;
     border-radius: 0;
     background: transparent;
     padding: 0;
-    margin: 0;
+    margin-top: -200px;
     box-shadow: none;
 }
 
 /* Book Now button */
 .book-btn {
     display: inline-block;
-    margin-top: -150px;
+    margin-top: -190px;
     background: var(--teal);
     color: #083038;
     padding: 12px 22px;
